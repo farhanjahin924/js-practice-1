@@ -1,4 +1,4 @@
- button{
+ button  {
 
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
@@ -12,5 +12,11 @@
     padding: inline-block;
     cursor: pointer;
     font-weight: bolder;
+    display: flex;
+    
 
+ }
+ .a{
+   text-align: center;
+   color: blueviolet;
  }
