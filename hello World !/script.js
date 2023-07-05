@@ -8,8 +8,8 @@
 // }
 
 let change = document.querySelector("button");
-change.addEventListener('click', cngmsg)
-function cngmsg()
+change.addEventListener('click', change_msg)
+function change_msg()
 {
     let name = prompt("Enter name of student");
     change.textContent = 'Roll no 1:' + name ;
